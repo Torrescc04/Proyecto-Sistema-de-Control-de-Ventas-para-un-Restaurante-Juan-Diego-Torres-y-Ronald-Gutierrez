@@ -29,7 +29,7 @@ Mejorar la organización y productividad de los estudiantes proporcionando un as
 - API y Servicios: *[Ejemplo: OpenAI, Firebase, etc.]*  
 
 ## 👥 Equipo  
-- [Nombre 1](https://github.com/Torrescc04) 
+- [Juan Torres](https://github.com/Torrescc04) 
 
 ## 📂 Repositorio  
 🔗 **GitHub:** [https://github.com/Torrescc04/-Aplicaci-n-para-Optimizaci-n-de-Rutinas-de-Estudio-con-IA-Proyecto-Juan-Torres.git]  
