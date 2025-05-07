@@ -124,3 +124,6 @@ Integración con herramientas externas (Google Calendar, Notion).
 
 ## 📂 Repositorio  
 🔗 **GitHub:** [https://github.com/Torrescc04/-Aplicaci-n-para-Optimizaci-n-de-Rutinas-de-Estudio-con-IA-Proyecto-Juan-Torres.git]  
+
+## 📂 Avances Proyecto 
+https://drive.google.com/drive/folders/1EE3FWxNOeIPJeE3-Tp4ioz7rietRiJSm?usp=drive_link
