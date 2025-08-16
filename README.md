@@ -1,129 +1,86 @@
-# 📚 Aplicación para Optimización de Rutinas de Estudio con IA  
+# Proyecto: Sistema de Control de Ventas para un Restaurante
 
-## 🚀 Descripción  
-Esta aplicación utiliza inteligencia artificial para ayudar a los estudiantes a optimizar su tiempo de estudio. Analiza sus hábitos, genera horarios personalizados y recomienda técnicas de aprendizaje adaptadas a cada usuario.  
+## 1. Introducción  
+El proyecto consiste en el desarrollo de un sistema básico para controlar las ventas en un restaurante.  
+La finalidad es facilitar el registro de productos, la realización de ventas y la generación de reportes simples.  
+El sistema está pensado para ser usado por el administrador o meseros del restaurante, permitiendo una gestión más organizada y eficiente.  
 
-## 🎯 Objetivo  
-Mejorar la organización y productividad de los estudiantes proporcionando un asistente inteligente que optimice su planificación de estudio.  
+---
 
-## 🛠️ Módulos Principales  
-1. **🔐 Autenticación y Gestión de Usuarios**  
-   - Inicio de sesión y registro seguro.  
-   - Gestión de roles y permisos.  
-   - Recuperación de contraseñas y administración de perfiles.  
+## 2. Tecnologías utilizadas  
 
-2. **🤖 Procesamiento de Datos con IA**  
-   - Análisis de hábitos de estudio del usuario.  
-   - Generación de horarios personalizados y sugerencias inteligentes.  
-   - Evaluación del progreso y ajustes dinámicos.  
+- **HTML5** → Para la estructura de las páginas.  
+- **CSS3** → Para los estilos y diseño visual.  
+- **JavaScript** → Para validaciones básicas y cálculos en la interfaz.  
+- **Java** → Para la lógica principal del sistema (manejo de productos y ventas).  
+- **Archivos de texto (.txt)** → Para guardar los datos de manera sencilla (productos y ventas).  
 
-3. **🎨 Interfaz de Usuario**  
-   - Diseño intuitivo y accesible.  
-   - Visualización de horarios, recomendaciones y estadísticas.  
-   - Experiencia fluida y amigable.
+> (Opcional: Se puede usar **MySQL con conexión JDBC** si se desea algo más avanzado).  
 
-## 💻 Tecnologías Utilizadas  
-- Lenguaje de programación: *[Ejemplo: Python, JavaScript, etc.]*  
-- Frameworks/Bibliotecas: *[Ejemplo: React, Flask, TensorFlow, etc.]*  
-- Base de datos: *[Ejemplo: PostgreSQL, MongoDB, etc.]*  
-- API y Servicios: *[Ejemplo: OpenAI, Firebase, etc.]*  
+---
 
-## 1️⃣ Elección de Tecnologías
-Después de evaluar los requerimientos del sistema, se ha decidido utilizar el siguiente stack tecnológico:
+## 3. Entorno de trabajo  
 
-🔹 Backend:
+- Editor para Java: **NetBeans** (o **IntelliJ IDEA**).  
+- Editor para HTML/CSS/JS: **Visual Studio Code**.  
+- **Java Development Kit (JDK):** Versión 17 o superior.  
+- Sistema operativo: **Windows o Linux**.  
 
-Node.js con Express.js: Proporciona una API rápida y escalable para manejar la lógica del sistema.
+---
 
-MongoDB con Mongoose: Base de datos NoSQL flexible para almacenar datos de los usuarios y su historial de estudio.
+## 4. Tipo de Base de Datos  
 
-Python (opcional) con TensorFlow o Scikit-Learn para modelos de IA si se implementa Machine Learning en el futuro.
+- **Opción sencilla:** Archivos de texto (`productos.txt`, `ventas.txt`).  
+  Cada vez que se registra un producto o una venta, se guarda la información en un archivo.  
 
-🔹 Frontend:
+- **Opción avanzada (opcional):** Base de datos **MySQL** conectada con Java mediante JDBC.  
 
-React.js con Vite: Framework moderno y eficiente para la interfaz de usuario.
+---
 
-Tailwind CSS: Para diseño responsivo y rápido.
+## 5. Librerías utilizadas  
 
-🔹 Otros:
+- **Java estándar:** Para manejar archivos (`BufferedWriter`, `BufferedReader`).  
+- **JavaScript:** Para cálculos y validaciones en formularios.  
+- No se utilizarán frameworks avanzados para mantenerlo simple.  
 
-JWT (JSON Web Tokens): Para autenticación segura.
+---
 
-Chart.js o Recharts: Para visualizar métricas de estudio.
+## 6. Área del proyecto  
 
-💡 Justificación: Este stack es escalable, permite integración con IA en el futuro y es eficiente para manejar datos en tiempo real.
+El área principal del proyecto es **Logística**, enfocada en la gestión y organización de ventas en un restaurante.  
+Además, se plantea una extensión opcional con IA para realizar predicciones simples de ventas futuras, usando datos históricos almacenados en archivos o base de datos.  
 
-## 2️⃣ Análisis de Hábitos de Estudio
-Para recopilar y analizar los hábitos de estudio, se usarán los siguientes métodos:
+- **Logística:** Control de productos y ventas.  
+- **IA (opcional):** Predicción de ventas diarias o semanales con cálculos básicos.  
 
-🔹 Datos recopilados:
+---
 
-Horas de estudio registradas.
+## 7. Funcionalidades principales  
 
-Materias y tipos de contenido estudiado.
+- **Login:** Acceso del administrador o mesero.  
+- **Gestión de productos:** Agregar, editar y eliminar productos.  
+- **Registro de ventas:** Seleccionar productos, cantidades y calcular total.  
+- **Reportes:** Ventas realizadas, total del día.  
 
-Tiempo de concentración vs. distracciones.
+---
 
-Preferencias del usuario (horarios más productivos).
+## 8. Diagrama de información (BD - IU - LN)  
 
-🔹 Enfoque de análisis:
+**Explicación del diagrama:**  
 
-Inicialmente, se usarán estadísticas básicas y reglas predefinidas (ejemplo: "Si estudias más de 2 horas seguidas, se recomienda un descanso").
+- **Interfaz de Usuario (IU):** Formularios en HTML para login, registro de productos y ventas.  
+- **Lógica de Negocio (LN):** Clases en Java que controlan el registro de productos y ventas.  
+- **Base de Datos (BD):** Archivos de texto (o MySQL) donde se guarda la información.  
 
-En futuras versiones, se podrá integrar Machine Learning para analizar patrones y mejorar recomendaciones.
+---
 
-🔹 Visualización:
+## 9. Diagrama con IA opcional  
 
-Gráficos con evolución del tiempo de estudio.
+Este diagrama muestra cómo se puede integrar un módulo opcional de **IA** para predecir ventas futuras usando datos del historial.  
 
-Indicadores de rendimiento semanal/mensual.
+---
 
-Comparación con objetivos definidos por el usuario.
+## 10. Conclusión  
 
-## 3️⃣ Flujo del Sistema
-Proceso de usuario
-1️⃣ Registro/Login → Usuario accede a la plataforma.
-2️⃣ Configuración inicial → Introduce sus preferencias (horarios ideales, materias prioritarias).
-3️⃣ Inicio del estudio → Usuario registra sesiones de estudio o usa el temporizador.
-4️⃣ Análisis de hábitos → El sistema recopila datos de uso.
-5️⃣ Recomendaciones personalizadas → Basadas en los datos recopilados.
-6️⃣ Visualización de métricas → El usuario accede a reportes de su progreso.
-
-💡 Se recomienda incluir un diagrama de flujo en la documentación para representar mejor este proceso.
-
-4️⃣ Primeros Pasos y Alcances Iniciales
-🔹 Fase 1: MVP (Producto Mínimo Viable)
-
-Registro e inicio de sesión con autenticación.
-
-Registro manual de sesiones de estudio.
-
-Gráficos simples con tiempo total de estudio por día/semana.
-
-Recomendaciones básicas basadas en reglas predefinidas.
-
-🔹 Fase 2: Expansión
-
-Implementación de un temporizador inteligente para sesiones de estudio.
-
-Generación automática de horarios recomendados.
-
-Comparación de rendimiento con otros usuarios (de forma anónima).
-
-🔹 Fase 3: IA y Automatización
-
-Uso de Machine Learning para análisis avanzado de hábitos.
-
-Recomendaciones adaptativas según patrones de estudio.
-
-Integración con herramientas externas (Google Calendar, Notion).
-
-
-## 👥 Equipo  
-- [Juan Torres](https://github.com/Torrescc04) 
-
-## 📂 Repositorio  
-🔗 **GitHub:** [https://github.com/Torrescc04/-Aplicaci-n-para-Optimizaci-n-de-Rutinas-de-Estudio-con-IA-Proyecto-Juan-Torres.git]  
-
-## 📂 Avances Proyecto 
-https://drive.google.com/drive/folders/1EE3FWxNOeIPJeE3-Tp4ioz7rietRiJSm?usp=drive_link
+Este proyecto es una solución sencilla y funcional para la gestión de ventas en un restaurante, ideal para estudiantes que están iniciando en programación.  
+Permite aplicar conceptos básicos de **Java, JavaScript y HTML**, además de reforzar el manejo de archivos o bases de datos.
