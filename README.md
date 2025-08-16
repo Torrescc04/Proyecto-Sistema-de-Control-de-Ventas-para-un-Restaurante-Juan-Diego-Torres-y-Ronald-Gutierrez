@@ -86,5 +86,5 @@ Este proyecto es una solución sencilla y funcional para la gestión de ventas e
 Permite aplicar conceptos básicos de **Java, JavaScript y HTML**, además de reforzar el manejo de archivos o bases de datos.
 
 ## Integrantes
-Juan Diego Torres Castro 
-Ronald Gutierrez 
+- Juan Diego Torres Castro
+- Ronald Gutierrez 
