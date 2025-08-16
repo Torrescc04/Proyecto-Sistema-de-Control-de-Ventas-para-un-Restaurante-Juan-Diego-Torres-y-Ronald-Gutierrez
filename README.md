@@ -84,3 +84,7 @@ Este diagrama muestra cómo se puede integrar un módulo opcional de **IA** para
 
 Este proyecto es una solución sencilla y funcional para la gestión de ventas en un restaurante, ideal para estudiantes que están iniciando en programación.  
 Permite aplicar conceptos básicos de **Java, JavaScript y HTML**, además de reforzar el manejo de archivos o bases de datos.
+
+## Integrantes
+Juan Diego Torres Castro 
+Ronald Gutierrez 
